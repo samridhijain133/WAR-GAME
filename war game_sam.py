@@ -42,6 +42,7 @@ for x in range(26):
     player_one.add_cards(new_deck.deal_one())
     player_two.add_cards(new_deck.deal_one())
 round_num=0
+game_on=True
 while game_on:
     round_num+=1
     print(f'ROUND {round_num}')
